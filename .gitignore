@@ -1,0 +1,14 @@
+# Sensitive lab artifacts
+*.hash
+*.pot
+*.john
+*.pdf
+*.docx
+*.log
+
+# Operating system / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
