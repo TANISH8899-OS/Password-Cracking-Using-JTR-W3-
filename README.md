@@ -52,55 +52,55 @@ Password-Cracking-Using-John-The-Ripper/
 
 Review the official Openwall project page to understand JTR, supported formats, and available builds.
 
-![John the Ripper project page](screenshots/01-john-the-ripper-official-website.png)
+![John the Ripper project page](01-john-the-ripper-official-website.png)
 
 ### 2. Review Johnny GUI
 
 Johnny is a graphical front end for John the Ripper. It provides a visual workflow for password files, attacks, sessions, and results.
 
-![Johnny GUI overview](screenshots/02-johnny-gui-overview.png)
+![Johnny GUI overview](02-johnny-gui-overview.png)
 
 ### 3. Install and open Johnny
 
 The supplied screenshots show the Johnny shortcut and installer package.
 
-![Johnny desktop shortcut](screenshots/03-johnny-desktop-shortcut.png)
+![Johnny desktop shortcut](03-johnny-desktop-shortcut.png)
 
-![Johnny installer](screenshots/04-johnny-installer.png)
+![Johnny installer](04-johnny-installer.png)
 
 ### 4. Configure the JTR executable
 
 In Johnny's **Settings** section, browse to the John the Ripper Jumbo executable (`john.exe`). The screenshot shows Johnny detecting the `1.9.0-jumbo-1` build.
 
-![Configure JTR executable](screenshots/05-configure-jtr-executable.png)
+![Configure JTR executable](05-configure-jtr-executable.png)
 
-![Verify JTR configuration](screenshots/06-verify-jtr-configuration.png)
+![Verify JTR configuration](06-verify-jtr-configuration.png)
 
 ### 5. Extract the test PDF hash
 
 Use a suitable PDF hash extraction utility with a test PDF that you own or are authorized to assess. Review the extracted output before using it.
 
-![Extract PDF hash](screenshots/07-extract-pdf-hash.png)
+![Extract PDF hash](07-extract-pdf-hash.png)
 
 ### 6. Save the hash
 
 Save the extracted hash in a plain-text file so that it can be loaded by Johnny. Keep this file private if it contains a real or sensitive hash.
 
-![Save extracted hash](screenshots/08-save-extracted-hash.png)
+![Save extracted hash](08-save-extracted-hash.png)
 
 ### 7. Load the hash into Johnny
 
 Use Johnny's password-file option to load the saved hash file. The supplied screenshot shows the entry recognized as PDF format.
 
-![Load hash in Johnny](screenshots/09-load-hash-in-johnny.png)
+![Load hash in Johnny](09-load-hash-in-johnny.png)
 
 ### 8. Review and verify the result
 
 The supplied lab screenshot shows Johnny displaying the recovered test password as `good-luck`. The password is then entered into the sample PDF, which opens successfully.
 
-![Password audit result](screenshots/10-password-audit-result.png)
+![Password audit result](10-password-audit-result.png)
 
-![Verify PDF and lab flag](screenshots/11-verify-pdf-and-lab-flag.png)
+![Verify PDF and lab flag](11-verify-pdf-and-lab-flag.png)
 
 ## Results
 
