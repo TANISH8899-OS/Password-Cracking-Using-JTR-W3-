@@ -136,7 +136,7 @@ Cybersecurity | Ethical Hacking | Network Security
 
 This repository documents an educational lab exercise. Password auditing and recovery must only be performed on files, systems, and hashes that you own or are explicitly authorized to assess.
 
-
+=============================================================================================================================
 
 
 # Password Cracking with Networkwalks Tools
