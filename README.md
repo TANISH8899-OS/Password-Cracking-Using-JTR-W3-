@@ -36,7 +36,7 @@ The demonstrated sample PDF was successfully unlocked during the exercise.
 
 Open the Networkwalks Hash Calculator in a web browser. The tool supports generating MD5, SHA-1, SHA-256, SHA-384 and SHA-512 hashes, as well as extracting a crackable hash from a password-protected PDF.
 
-![Hash Calculator](screenshots/01-hash-calculator-text-tab.png)
+![Hash Calculator](01a-hash-calculator-text-tab.png)
 
 ### Step 2 – Upload the Password-Protected PDF
 
@@ -44,7 +44,7 @@ Select the **PDF** tab and upload the sample locked PDF. The tool parses the fil
 
 Copy the complete hash value.
 
-![Extract PDF hash](screenshots/02-extract-pdf-hash.png)
+![Extract PDF hash](02a-extract-pdf-hash.png)
 
 ### Step 3 – Open the Password Cracker and Paste the Hash
 
@@ -52,7 +52,7 @@ Open the Networkwalks Password Cracker. Paste the complete `$pdf$...` hash into 
 
 The lab interface provides a built-in list of 100 passwords and also allows a `.txt` wordlist to be uploaded.
 
-![Paste hash into Password Cracker](screenshots/03-paste-hash-into-dictionary-cracker.png)
+![Paste hash into Password Cracker](03a-paste-hash-into-dictionary-cracker.png)
 
 ### Step 4 – Start the Dictionary Attack
 
@@ -60,19 +60,19 @@ Click **Start Cracking**. The tool checks candidate words from the selected word
 
 Wait for the process to finish.
 
-![Dictionary attack result](screenshots/04-dictionary-attack-success.png)
+![Dictionary attack result](04a-dictionary-attack-success.png)
 
 ### Step 5 – Verify the Recovered Password
 
 The lab reports that the password was recovered. Enter the recovered password into the PDF viewer's password prompt to confirm that the sample PDF opens successfully.
 
-![Enter PDF password](screenshots/05-enter-cracked-pdf-password.png)
+![Enter PDF password](05a-enter-cracked-pdf-password.png)
 
 ### Step 6 – Confirm Lab Completion
 
 The training page displays a completion message and a flag after the PDF is successfully opened.
 
-![Lab completion](screenshots/06-lab-completion-flag.png)
+![Lab completion](06a-lab-completion-flag.png)
 
 ## Result
 
